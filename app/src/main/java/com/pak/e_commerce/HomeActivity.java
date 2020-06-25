@@ -218,6 +218,14 @@ public class HomeActivity extends AppCompatActivity
                 startActivity(intent);
             }
         }
+        else if (id == R.id.nav_search)
+        {
+            if (!type.equals("Admin"))
+            {
+                Intent intent = new Intent(HomeActivity.this, SearchProductsActivity.class);
+                startActivity(intent);
+            }
+        }
 
         else if (id == R.id.nav_categories)
         {
