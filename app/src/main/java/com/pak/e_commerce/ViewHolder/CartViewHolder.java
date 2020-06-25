@@ -6,6 +6,7 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.pak.e_commerce.Interface.ItemClickListner;
+import com.pak.e_commerce.R;
 
 public class CartViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener
 {
@@ -17,6 +18,9 @@ public class CartViewHolder extends RecyclerView.ViewHolder implements View.OnCl
     {
         super(itemView);
 
+        txtProductName = itemView.findViewById(R.id.cart_product_name);
+        txtProductPrice = itemView.findViewById(R.id.cart_product_price);
+        txtProductQuantity = itemView.findViewById(R.id.cart_product_quantity);
     }
 
     @Override
