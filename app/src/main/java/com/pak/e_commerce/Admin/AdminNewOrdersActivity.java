@@ -1,4 +1,4 @@
-package com.pak.e_commerce;
+package com.pak.e_commerce.Admin;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -20,6 +20,7 @@ import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.pak.e_commerce.Model.AdminOrders;
+import com.pak.e_commerce.R;
 
 public class AdminNewOrdersActivity extends AppCompatActivity
 {

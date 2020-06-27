@@ -1,4 +1,4 @@
-package com.pak.e_commerce;
+package com.pak.e_commerce.Admin;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -15,6 +15,7 @@ import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.pak.e_commerce.Model.Cart;
+import com.pak.e_commerce.R;
 import com.pak.e_commerce.ViewHolder.CartViewHolder;
 
 public class AdminUserProductsActivity extends AppCompatActivity
