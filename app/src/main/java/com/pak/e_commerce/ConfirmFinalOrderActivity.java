@@ -27,6 +27,7 @@ public class ConfirmFinalOrderActivity extends AppCompatActivity
     private Button confirmOrderBtn;
 
     private String totalAmount = "";
+    Button bopen;
 
 
     @Override
@@ -34,6 +35,15 @@ public class ConfirmFinalOrderActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_confirm_final_order);
+
+        bopen=findViewById(R.id.easypaisa);
+        bopen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=getPackageManager().getLaunchIntentForPackage("pk.com.telenor.phoenix");
+                startActivity(intent);
+            }
+        });
 
 
         totalAmount = getIntent().getStringExtra("Total Price");

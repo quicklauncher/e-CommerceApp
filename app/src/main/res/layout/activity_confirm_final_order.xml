@@ -62,7 +62,37 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:hint="your City Name"
+
         />
+
+    <TextView
+        android:id="@+id/easypaisaTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shippment_city"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="EasyPaisa Account: 03017711335"
+        android:textColorHint="#fff"
+        android:background="#E36E1B"
+        android:textSize="20dp"
+
+        />
+    <Button
+        android:id="@+id/easypaisa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/easypaisaTV"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Pay with EasyPaisa"
+        android:textColorHint="#fff"
+        android:background="#4EA007"
+
+        />
+
 
 
     <Button
@@ -71,10 +101,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_margin="20dp"
-        android:text="Confirm"
+        android:text="Confirm for cash on delivery"
         android:background="@color/colorPrimaryDark"
         android:textColor="@android:color/white"
         android:textSize="20dp"
         />
+
 
 </RelativeLayout>

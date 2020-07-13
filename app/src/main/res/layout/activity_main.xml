@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/welcome">
+    android:background="@drawable/gr">
 
     <ImageView
         android:id="@+id/app_logo"
@@ -13,7 +13,13 @@
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp"
-        app:srcCompat="@drawable/applogo"
+        app:srcCompat="@drawable/retail"
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
         />
 
     <TextView
@@ -23,10 +29,10 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
         android:layout_marginEnd="80dp"
-        android:layout_marginTop="142dp"
-        android:text="Find, Discover, Choose and Buy anything online."
+        android:layout_marginTop="180dp"
+        android:text="Click JPJ"
         android:textAlignment="center"
-        android:textColor="@color/colorPrimary"
+        android:textColor="#fff"
         android:textSize="25sp"
         android:textStyle="italic"
         />

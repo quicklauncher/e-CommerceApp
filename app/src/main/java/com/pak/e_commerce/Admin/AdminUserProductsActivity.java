@@ -65,7 +65,7 @@ public class AdminUserProductsActivity extends AppCompatActivity
             protected void onBindViewHolder(@NonNull CartViewHolder holder, int position, @NonNull Cart model)
             {
                 holder.txtProductQuantity.setText("Quantity = " + model.getQuantity());
-                holder.txtProductPrice.setText("Price " + model.getPrice() + "$");
+                holder.txtProductPrice.setText("Price " + model.getPrice() + "RS");
                 holder.txtProductName.setText(model.getPname());
             }
 
